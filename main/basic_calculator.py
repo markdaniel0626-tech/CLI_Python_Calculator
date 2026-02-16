@@ -24,7 +24,7 @@ def mult(a, b): return a * b
 def div(a, b):
     while b == 0:
         print("Canno't be divided by zero")
-        a, b = get_numbers()
+        b = float(input("Enter the second number: ")) 
     return a / b
 
 def confirm_exit():
