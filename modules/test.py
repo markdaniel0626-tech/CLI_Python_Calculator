@@ -1,3 +1,8 @@
-import sys
+# this module is for COLORAMA
 
-print(help(sys))
+import colorama as c
+
+blue = c.Fore.BLUE
+red = c.Fore.RED
+
+print(red, "Mark")
